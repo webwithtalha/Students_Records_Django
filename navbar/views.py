@@ -9,3 +9,6 @@ def about(request):
 
 def skills(request):
     return render(request, 'skills.html')
+
+def contact(request):
+    return render(request, 'contact.html')
