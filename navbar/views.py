@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Students
 
 # Create your views here.
 def home(request):
@@ -7,8 +8,9 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
-def skills(request):
-    return render(request, 'skills.html')
+def records(request):
+    students = Students.objects.get(id=1)
+    return render(request, 'records.html', {'students': students})
 
 def contact(request):
     return render(request, 'contact.html')

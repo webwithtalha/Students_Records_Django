@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hp-t$pvr!3b+mx7n5c!o!wi*ja2ywa9(gmk%*hq!n=#cgbxvv^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["navbardjango-5.onrender.com"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
